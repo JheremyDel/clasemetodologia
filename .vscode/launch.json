@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Opera as Chrome",
+            "url": "http://localhost:5051",
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "C:\\Users\\Jheremy\\AppData\\Local\\Programs\\Opera\\opera.exe",
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "port": 9222
+        }
+    ]
+}
